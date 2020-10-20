@@ -1,38 +1,133 @@
-.App {
+.Hcontain {
+  height: 850px;
+} 
+
+          /*  Header  */
+
+ .back {
+  background-image: url("./images/mexico.jpg");
+  /* height: 100%; */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.inner {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
   color: white;
+  height: auto;
+  padding-top: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.Hh1 {
+  font-size: 5em;
+  margin-bottom: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Hh2 {
+  margin-bottom: 25px;
+  font-family: "source sans pro", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 400;
 }
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  border: 4px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2 ease-out, color 0.2s ease ease-out;
+}
+
+.btn:hover,.btn:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+        /* About */
+
+.Acontain {
+  height: auto;
+  background-color: aqua;
+  padding: 20px;
+}
+        
+.Mid {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: auto;
+  text-align: center;
+}        
+
+.alt {
+  padding: 0px;
+}
+
+.altA {
+  height: 100%;
+  margin: 40px auto;
+}
+.icon {
+	width: 50px;
+	height: 50px;
+	margin: 20px 0px; 
+}
+
+.squeeze {
+	padding: 0px 30px;
+}
+
+
+.Mid h1::after {
+	display: block;
+  content: '';
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+  margin: 10px 0px 0px 0px;
+	border-radius: 2px;
+	background-image: linear-gradient(#efa8b0, #a89cc8, #8cc9f0);
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+  clip-path: circle(35% at 50% 55%);
+  object-fit: cover;
+} 
+
+.links {
+  width: 50px;
+  height: 50px;
+}
+
+.p1 {
+  font-size: 15px;
+}
+
+.squeezeA {
+  padding: 0px 300px;
+}
+
+a {
+  color: black;
+}
+
+      /*  Projects  */
+
+      .Pcontain {
+        height: auto;
+        background-color: lawngreen;
+      }
