@@ -118,7 +118,7 @@
 }
 
 .squeezeA {
-  padding: 0px 300px;
+  padding: 0px 50px;
 }
 
 a {
@@ -127,7 +127,49 @@ a {
 
       /*  Projects  */
 
-      .Pcontain {
-        height: auto;
-        background-color: lawngreen;
-      }
+.Pcontain {
+  height: auto;
+  background-color: rgb(80, 121, 197);
+  padding: 0px auto;
+  padding-bottom: 75px;
+  margin: 0px auto;
+}
+
+.project {
+  padding-top: 60px;
+}
+
+.project h1::after {
+	display: block;
+  content: '';
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+  margin: 20px 0px 20px 0px;
+	border-radius: 2px;
+	background-image: linear-gradient(#efa8b0, #a89cc8, #8cc9f0);
+}
+
+.card {
+  margin: 10px auto;
+  width: 500px;
+}
+
+.cardHeight {
+  height: 250px;
+}
+
+      /* Carousel */
+
+.Mcontain {
+  background-color: rgb(141, 143, 141);
+  padding: 50px 0px;
+}
+
+      /* Contact */
+
+.Ccontain {
+  height: 300px;
+  background-color: ivory;
+}

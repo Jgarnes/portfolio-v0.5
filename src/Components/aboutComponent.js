@@ -12,8 +12,11 @@ function About () {
                     <Row className="Mid">
                         <h1>About Me</h1>
                     </Row>
-                    <Row className="Mid">
-                    <p>I am a software developer and looking to start my owne gig etc.</p>
+                    <Row className="Mid squeeze" style={{marginTop: "30px", fontSize: "20px"}}>
+                    <p>Transitioning my skills from over 5 years’ experience in theater, event production, and production management to a career in
+                        website development. Proficient with various front-end and back-end frameworks as well as management of underlying
+                        databases. Professional and detail-oriented with strong leadership and communication skills. Proven ability to plan, organize,
+                        and execute, to meet both customer expectations and organizational goals.</p>
                     </Row>
                 </Col>
                 <Col lg={4} className="Mid alt">
@@ -61,13 +64,13 @@ function About () {
             
             </Row>
             <Row className="justify-content-center squeezeA">
-                <Col xs lg={2} className="Mid">
+                <Col  xs={2} className="Mid">
                    <a href="https://www.linkedin.com/in/jeremy-garnes" target="_blank"> <FaLinkedin color="blue" className="links" /> <p className="p1"> Linkedin </p> </a>
                 </Col>
-                <Col xs lg={2} className="Mid">
+                <Col  xs={2} className="Mid">
                    <a href="https://github.com/Jgarnes" target="_blank"> <FaGithub className="links" /> <p className="p1">Github</p></a>
                 </Col>
-                <Col xs lg={2} className="Mid">
+                <Col  xs={2} className="Mid">
                   <a href="/resume/myresume.pdf" target="_blank"> <SiAdobeacrobatreader color="red" className="links" onClick /> <p className="p1"> Resume</p> </a>
                 </Col>
             </Row>
