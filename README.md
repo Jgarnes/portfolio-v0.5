@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created this as a place holder because I'm currently working on a better portfolio site and need one to apply to jobs with.  
 
 ## Available Scripts
 
