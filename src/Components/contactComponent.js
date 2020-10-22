@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPhoneVolume, FaHome } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { Button, Container, Col, Row, } from 'react-bootstrap';
+import { Container, Col, Row, } from 'react-bootstrap';
 
 function Contact () {
 

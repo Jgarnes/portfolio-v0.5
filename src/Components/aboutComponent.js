@@ -65,13 +65,13 @@ function About () {
             </Row>
             <Row className="justify-content-center squeezeA">
                 <Col  xs={2} className="Mid">
-                   <a href="https://www.linkedin.com/in/jeremy-garnes" target="_blank"> <FaLinkedin color="blue" className="links" /> <p className="p1"> Linkedin </p> </a>
+                   <a href="https://www.linkedin.com/in/jeremy-garnes" target="_blank" rel="noopener noreferrer"> <FaLinkedin color="blue" className="links" /> <p className="p1"> Linkedin </p> </a>
                 </Col>
                 <Col  xs={2} className="Mid">
-                   <a href="https://github.com/Jgarnes" target="_blank"> <FaGithub className="links" /> <p className="p1">Github</p></a>
+                   <a href="https://github.com/Jgarnes" target="_blank" rel="noopener noreferrer"> <FaGithub className="links" /> <p className="p1">Github</p></a>
                 </Col>
                 <Col  xs={2} className="Mid">
-                  <a href="/resume/myresume.pdf" target="_blank"> <SiAdobeacrobatreader color="red" className="links" onClick /> <p className="p1"> Resume</p> </a>
+                  <a href="/resume/myresume.pdf" target="_blank" rel="noopener noreferrer"> <SiAdobeacrobatreader color="red" className="links" onClick /> <p className="p1"> Resume</p> </a>
                 </Col>
             </Row>
         </Container>

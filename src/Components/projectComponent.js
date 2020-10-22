@@ -18,7 +18,7 @@ function Projects () {
                             <Card.Text>
                             My first project! During my Bootcamp we were tasked of selecting a portfolio project to comeplete. Not knowing what to do, I was conversing with a friend of mine, who is an actress, and she said (jokingly) you should build mine.
                             </Card.Text>
-                            <a href="" target="_blank"><Button variant="primary">Take a look</Button></a>
+                            <Button variant="primary">Take a look</Button>
                         </Card.Body>
                     </Card>
                 </Col>
