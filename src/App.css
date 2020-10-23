@@ -118,7 +118,7 @@
 }
 
 .squeezeA {
-  padding: 0px 50px;
+  padding: 0px auto;
 }
 
 a {
@@ -153,7 +153,6 @@ a {
 
 .card {
   margin: 10px auto;
-  width: 500px;
 }
 
 .cardHeight {

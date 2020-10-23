@@ -10,33 +10,33 @@ function Projects () {
                 <h1>Portfolio</h1>   
              </Row>
              <Row className="justify-content-center">   
-                <Col  className="text-center">
+                <Col lg={4} className="text-center">
                     <Card className="card">
-                        <Card.Img variant="top" src="/photos/Cover-Mel.JPG" />
+                        <Card.Img variant="top" height="325px" style={{objectFit:"cover"}} src="/photos/Cover-Mel.JPG" />
                         <Card.Body className="cardHeight">
                             <Card.Title>My First Project</Card.Title>
                             <Card.Text>
-                            My first project! During my Bootcamp we were tasked of selecting a portfolio project to comeplete. Not knowing what to do, I was conversing with a friend of mine, who is an actress, and she said (jokingly) you should build mine.
+                            My first project! During my Bootcamp we were tasked of selecting a portfolio project to comeplete. 
                             </Card.Text>
                             <Button variant="primary">Take a look</Button>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col  className="text-center">
+                <Col lg={4} className="text-center">
                     <Card >
-                        <Card.Img variant="top" height="300px" width="100%" style={{objectFit:"cover", objectPosition: "50% 23%"}} src="/photos/Java/homescreen.JPG" />
+                        <Card.Img variant="top" height="325px" width="100%" style={{objectFit:"cover", objectPosition: "50% 23%"}} src="/photos/Java/homescreen.JPG" />
                             <Card.Body className="cardHeight">
                                 <Card.Title>More Than Java App</Card.Title>
                             <Card.Text>
-                            An App I created for a local coffee shop. I noticed they have a website, but don't have an app. So I decided to build one. Take a look at the example photos below!!
+                            An App I created for a local coffee shop. Take a look at the example photos below!!
                             </Card.Text>
                            <a href="#carousel"> <FaArrowDown className="icon"/></a>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col  className="text-center">
+                <Col lg={4} className="text-center">
                     <Card>
-                    <Card.Img variant="top" height="300px" style={{objectFit:"cover"}} src="/photos/wall.jpg" />
+                    <Card.Img variant="top" height="325px" style={{objectFit:"cover"}} src="/photos/wall.jpg" />
                         <Card.Body className="cardHeight">
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
