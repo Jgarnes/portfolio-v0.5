@@ -8,7 +8,7 @@ function Header () {
             <Row className="inner">
                 <Col > 
                     <h1 className="Hh1">Hello, My name is Jeremy Garnes</h1>
-                    <h2 className="Hh2">I am a Full Stack webdeveloper</h2>
+                    <h2 className="Hh2">I am a Full Stack Web-developer</h2>
                     <Button className="btn" href="#about">Learn more</Button>
                 </Col>
             </Row>
