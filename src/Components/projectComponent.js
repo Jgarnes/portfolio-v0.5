@@ -16,9 +16,9 @@ function Projects () {
                         <Card.Body className="cardHeight">
                             <Card.Title>My First Project</Card.Title>
                             <Card.Text>
-                            My first project! During my Bootcamp we were tasked of selecting a portfolio project to comeplete. 
+                            Created a portfolio site for an Actress friend of mine. 
                             </Card.Text>
-                            <Button variant="primary">Take a look</Button>
+                           <a href="https://melissavictor.netlify.app" target="_blank" rel="noopener noreferrer"><Button variant="primary">Take a look</Button></a> 
                         </Card.Body>
                     </Card>
                 </Col>

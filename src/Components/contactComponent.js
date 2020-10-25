@@ -9,13 +9,13 @@ function Contact () {
         <Container fluid className="Ccontain" id="contact">
             <Row height="auto" className="justify-content-center squeezeA" style={{paddingTop:"50px"}}>
                 <Col   className="Mid">
-                  <FaPhoneVolume className="links" /> <p className="p1"> Telephone: <br /> 443-810-5547 </p>
+                  <FaPhoneVolume className="links" /> <p className="p2"> Telephone: <br /> 443-810-5547 </p>
                 </Col>
                 <Col   className="Mid">
-                  <FaHome className="links" /> <p className="p1"> Location: <br /> Laurel, Maryland </p>
+                  <FaHome className="links" /> <p className="p2"> Location: <br /> Laurel, Maryland </p>
                 </Col>
                 <Col   className="Mid">
-                  <MdEmail className="links" /> <p className="p1"> Email: J06Garnes@Gmail.com </p>
+                  <MdEmail className="links" /> <p className="p2"> Email: <br/> J06Garnes@Gmail.com </p>
                 </Col>
             </Row>
         </Container>
