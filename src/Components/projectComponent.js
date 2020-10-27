@@ -16,9 +16,9 @@ function Projects () {
                         <Card.Body className="cardHeight">
                             <Card.Title>My First Project</Card.Title>
                             <Card.Text>
-                            Created a portfolio site for an Actress friend of mine. 
+                            Created a portfolio site for an Actress friend of mine. Using React and React-Bootstrap. 
                             </Card.Text>
-                           <a href="https://melissavictor.netlify.app" target="_blank" rel="noopener noreferrer"><Button variant="primary">Take a look</Button></a> 
+                           <Button variant="primary" href="https://melissavictor.netlify.app" target="_blank" rel="noopener noreferrer">Take a look</Button> 
                         </Card.Body>
                     </Card>
                 </Col>
@@ -28,22 +28,21 @@ function Projects () {
                             <Card.Body className="cardHeight">
                                 <Card.Title>More Than Java App</Card.Title>
                             <Card.Text>
-                            An App I created for a local coffee shop. Take a look at the example photos below!!
+                            An App I created for a local coffee shop. Using React-Native. Take a look at the example photos below!!
                             </Card.Text>
                            <a href="#carousel"> <FaArrowDown className="icon"/></a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg={4} className="text-center">
-                    <Card>
-                    <Card.Img variant="top" height="325px" style={{objectFit:"cover"}} src="/photos/wall.jpg" />
+                    <Card >
+                    <Card.Img variant="top" height="325px" style={{objectFit:"cover"}} src="/photos/landingPage.jpg" />
                         <Card.Body className="cardHeight">
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Landing Page</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Created a landing page for a client using Wordpress
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary" href="https://humanwellness.life/landing-page-jg/" target="_blank" rel="noopener noreferrer">Take a look</Button>
                         </Card.Body>
                     </Card>
                 </Col>

@@ -157,6 +157,7 @@ a {
 
 .card {
   margin: 10px auto;
+  background-color: lightgray;
 }
 
 .cardHeight {
@@ -166,8 +167,12 @@ a {
       /* Carousel */
 
 .Mcontain {
-  background-color: rgb(141, 143, 141);
+  background-color: rgb(157, 221, 157);
   padding: 50px 0px;
+}
+
+.carousel-fade {
+  transition: transform 3s ease, opacity .5s ease-out;
 }
 
       /* Contact */

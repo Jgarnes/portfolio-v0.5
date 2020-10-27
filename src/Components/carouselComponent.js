@@ -5,12 +5,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Mobile() {
     return (
-    <Container fluid className="Mcontain" id="carousel">
+    <Container fluid  className="Mcontain carousel-fade" id="carousel">
         <Row>
             <Col>
             
 
-        <Carousel >
+        <Carousel>
             <Carousel.Item>
                 <img
                 className="w-100"
