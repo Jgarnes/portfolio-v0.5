@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, NavLink }from 'react-bootstrap';
 import { Link, animateScroll as scroll, } from 'react-scroll';
 
-function Navi () {
+function Navi () { 
     return (
     <Navbar expand="lg" sticky="top" bg="light" variant="light">
         <Navbar.Brand onClick={() => scroll.scrollToTop}>Jeremy Garnes</Navbar.Brand>
