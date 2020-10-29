@@ -10,7 +10,7 @@ function Projects () {
                 <h1>Portfolio</h1>   
              </Row>
              <Row className="justify-content-center">   
-                <Col lg={4} className="text-center">
+                <Col lg={3} className="text-center">
                     <Card className="card">
                         <Card.Img variant="top" height="325px" style={{objectFit:"cover"}} src="/photos/Cover-Mel.JPG" />
                         <Card.Body className="cardHeight">
@@ -22,7 +22,7 @@ function Projects () {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col lg={4} className="text-center">
+                <Col lg={3} className="text-center">
                     <Card >
                         <Card.Img variant="top" height="325px" width="100%" style={{objectFit:"cover", objectPosition: "50% 23%"}} src="/photos/Java/homescreen.JPG" />
                             <Card.Body className="cardHeight">
@@ -34,7 +34,7 @@ function Projects () {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col lg={4} className="text-center">
+                <Col lg={3} className="text-center">
                     <Card >
                     <Card.Img variant="top" height="325px" style={{objectFit:"cover"}} src="/photos/landingPage.jpg" />
                         <Card.Body className="cardHeight">

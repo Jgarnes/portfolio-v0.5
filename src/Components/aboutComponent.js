@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaReact, FaHtml5, FaBootstrap, FaNodeJs, FaGithub } from 'react-icons/fa';
-import { SiJavascript, SiCss3, SiMongodb, SiRedux, SiVisualstudiocode } from 'react-icons/si';
+import { FaReact, FaHtml5, FaBootstrap, FaNodeJs, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiJavascript, SiCss3, SiMongodb, SiRedux, SiVisualstudiocode, SiAdobeacrobatreader } from 'react-icons/si';
 import { Container, Col, Row, Image } from 'react-bootstrap';
 
 function About () {
@@ -63,7 +63,17 @@ function About () {
                 </Col>
             
             </Row>
-           
+            <Row className="justify-content-center squeezeA">
+                <Col  xs={2} className="Mid">
+                   <a href="https://www.linkedin.com/in/jeremy-garnes" target="_blank" rel="noopener noreferrer"> <FaLinkedin color="blue" className="links" /> <p className="p1"> Linkedin </p> </a>
+                </Col>
+                <Col  xs={2} className="Mid">
+                   <a href="https://github.com/Jgarnes" target="_blank" rel="noopener noreferrer"> <FaGithub className="links" /> <p className="p1">Github</p></a>
+                </Col>
+                <Col  xs={2} className="Mid" >
+                  <a href="/resume/myresume.pdf" target="_blank" rel="noopener noreferrer"> <SiAdobeacrobatreader color="red" className="links" /> <p className="p1"> Resume</p> </a>
+                </Col>
+            </Row>
         </Container>
     );
 }

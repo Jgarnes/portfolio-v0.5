@@ -7,11 +7,12 @@ function Contact () {
 
     return(
         <Container fluid className="Ccontain" id="contact">
+           
             <Row height="auto" className="justify-content-center squeezeA" style={{paddingTop:"50px"}}>
-                <Col   className="Mid">
+                <Col md={3}  className="Mid">
                   <FaHome className="links" /> <p className="p2"> Location: <br /> Laurel, Maryland </p>
                 </Col>
-                <Col   className="Mid">
+                <Col md={3}  className="Mid">
                   <MdEmail className="links" /> <p className="p2"> Email: <br/> J06Garnes@Gmail.com </p>
                 </Col>
             </Row>
