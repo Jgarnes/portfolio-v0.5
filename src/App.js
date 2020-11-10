@@ -12,11 +12,13 @@ function App() {
   return (
     <React.Fragment >
         <Navi />  
+        <div style={{overflowX:'hidden'}}>
         <Header />
         <About />
         <Projects />
         <Mobile />
         <Contact />
+        </div>
     </React.Fragment>
   );
 }
