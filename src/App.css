@@ -13,7 +13,7 @@ html {
 } 
 
  .back {
-  background-image: url("./images/xavier.jpg");
+  background-image: url("./images/nadya.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -29,13 +29,12 @@ html {
   text-align: center;
   color: #eefbfb;
   height: auto;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .Hh1 {
   font-size: 4em;
-  margin-bottom: 90px;
-  background-color: rgba(0,0,0,0.2)
+  margin-bottom: 200px;
 }
 
 .Hh2 {
@@ -44,7 +43,6 @@ html {
   font-size: 2em;
   text-align: center;
   font-weight: 400;
-  background-color: rgba(0,0,0,0.2)
 }
 
 .squeezeA {
